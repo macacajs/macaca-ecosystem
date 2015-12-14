@@ -1,0 +1,33 @@
+{
+  "name": "macaca-logo",
+  "version": "0.1.0",
+  "description": "macaca-logo",
+  "keywords": [
+    "ui test",
+    "webdriver",
+    "testing",
+    "ui automation",
+    "test platform",
+    "test framework"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/macacajs/macaca-logo.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "make test",
+    "lint": "make lint"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "homepage": "https://github.com/macacajs/macaca-logo",
+  "author": "xudafeng",
+  "email": "xudafeng@126.com",
+  "license": "MIT"
+}

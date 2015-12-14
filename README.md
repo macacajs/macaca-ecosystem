@@ -1,3 +1,2 @@
-macaca-logo
-===========
+# macaca-logo
 
