@@ -1,7 +1,7 @@
 {
   "name": "macaca-logo",
-  "version": "0.1.0",
-  "description": "macaca-logo",
+  "version": "0.1.2",
+  "description": "macaca logo",
   "keywords": [
     "ui test",
     "webdriver",
@@ -16,6 +16,7 @@
     "url": "git://github.com/macacajs/macaca-logo.git"
   },
   "dependencies": {
+    
   },
   "devDependencies": {
   },
