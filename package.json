@@ -1,6 +1,6 @@
 {
   "name": "macaca-logo",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "macaca logo",
   "keywords": [
     "ui test",
@@ -16,7 +16,6 @@
     "url": "git://github.com/macacajs/macaca-logo.git"
   },
   "dependencies": {
-    
   },
   "devDependencies": {
   },
@@ -28,7 +27,5 @@
     "lint"
   ],
   "homepage": "https://github.com/macacajs/macaca-logo",
-  "author": "xudafeng",
-  "email": "xudafeng@126.com",
   "license": "MIT"
 }
