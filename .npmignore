@@ -9,5 +9,6 @@ coverage/
 plugins/
 docs/
 sketch/
+svg/
 *.sw*
 *.un~
