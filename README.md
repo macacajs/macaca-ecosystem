@@ -1,7 +1,7 @@
 # macaca-logo
 
-![](//macacajs.github.io/macaca-logo/svg/monkey.svg)
+![](http://macacajs.github.io/macaca-logo/svg/monkey.svg)
 
 ---
 
-![](//macacajs.github.io/macaca-logo/svg/monkey-colorful.svg)
+![](http://macacajs.github.io/macaca-logo/svg/monkey-colorful.svg)
