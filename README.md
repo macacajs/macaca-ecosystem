@@ -1,13 +1,9 @@
 # macaca-logo
 
-cdn
+cdn: [//npmcdn.com/macaca-logo@latest/svg/monkey.svg](//npmcdn.com/macaca-logo@latest/svg/monkey.svg)
 
-```
-https://npmcdn.com/macaca-logo@latest/svg/monkey.svg
-```
-
-![](http://macacajs.github.io/macaca-logo/svg/monkey.svg)
+![](//macacajs.github.io/macaca-logo/svg/monkey.svg)
 
 ---
 
-![](http://macacajs.github.io/macaca-logo/svg/monkey-colorful.svg)
+![](//macacajs.github.io/macaca-logo/svg/monkey-colorful.svg)
