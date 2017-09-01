@@ -1,14 +1,11 @@
 {
   "name": "macaca-logo",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "macaca logo",
   "keywords": [
-    "ui test",
-    "webdriver",
-    "testing",
-    "ui automation",
-    "test platform",
-    "test framework"
+    "uitest",
+    "logo",
+    "testing"
   ],
   "main": "index.js",
   "repository": {
@@ -20,8 +17,6 @@
   "devDependencies": {
   },
   "scripts": {
-    "test": "make test",
-    "lint": "make lint"
   },
   "pre-commit": [
     "lint"
