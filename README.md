@@ -18,3 +18,7 @@ cdn: [//npmcdn.com/macaca-logo@latest/svg/monkey.svg](//npmcdn.com/macaca-logo@l
 ![](https://macacajs.github.io/macaca-logo/svg/monkey.svg)
 
 ![](https://macacajs.github.io/macaca-logo/svg/monkey-colorful.svg)
+
+```bash
+$ curl https://raw.githubusercontent.com/macacajs/macaca-logo/master/lib/ascii.js 
+```
