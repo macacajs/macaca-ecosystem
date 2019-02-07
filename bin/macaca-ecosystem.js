@@ -25,7 +25,11 @@ program
     const execSyncWithLog = cmd => {
       console.log(cmd);
       console.log(cwd);
-      execSync(cmd, { cwd });
+      execSync(cmd, {
+        cwd,
+        stdio: [0, 1, 2],
+        env: process.env,
+      });
     };
 
     const gitInfo = lcl.getLastCommitSync();
@@ -41,7 +45,7 @@ program
     execSyncWithLog('git add --all .');
     execSyncWithLog('git commit -m "Travis CI Auto Builder"');
 
-    execSyncWithLog(`git push --quiet --force https://$REPO_TOKEN@github.com/${originGitPath}.git master:${branch}`);
+    execSyncWithLog(`git push --quiet --force https://$REPO_TOKEN@github.com${originGitPath}.git master:${branch}`);
     process.exit(0);
   }).on('--help', () => {
     console.log('');
