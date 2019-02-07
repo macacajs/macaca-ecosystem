@@ -1,14 +1,19 @@
 {
   "name": "macaca-ecosystem",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "main": "index.js",
+  "bin": {
+    "macaca-ecosystem": "./bin/macaca-ecosystem.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/macacajs/macaca-ecosystem.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "commander": "^2.19.0",
+    "last-commit-log": "^2.1.0"
+  },
   "devDependencies": {
-    "co-mocha": "*",
     "eslint": "*",
     "eslint-plugin-mocha": "^4.11.0",
     "git-contributor": "*",
@@ -17,7 +22,6 @@
     "nyc": "*"
   },
   "scripts": {
-    "ci": "npm run lint && npm run test",
     "test": "nyc --reporter=lcov --reporter=text mocha",
     "lint": "eslint . --fix",
     "contributor": "git-contributor"

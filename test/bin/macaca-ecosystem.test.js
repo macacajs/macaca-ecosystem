@@ -2,8 +2,8 @@
 
 const assert = require('assert');
 
-describe('test', () => {
+describe('test/bin/macaca-ecosystem.test.js', () => {
   it('should be ok', () => {
-    require('..');
+
   });
 });

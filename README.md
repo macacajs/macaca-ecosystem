@@ -25,6 +25,12 @@
 $ npm i macaca-ecosystem --save-dev
 ```
 
+## Usage
+
+```bash
+$ `npm bin`/macaca-ecosystem push -c ./docs_dist --branch gh-pages
+```
+
 ## License
 
 The MIT License (MIT)
