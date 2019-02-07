@@ -31,6 +31,8 @@ $ npm i macaca-ecosystem --save-dev
 $ `npm bin`/macaca-ecosystem push -c ./docs_dist --branch gh-pages
 ```
 
+current branch name should be start with `docs`, e.g. like `docs/update-usage`.
+
 ## License
 
 The MIT License (MIT)
