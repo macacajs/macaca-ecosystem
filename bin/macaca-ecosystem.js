@@ -22,6 +22,10 @@ program
     const cwd = path.resolve(program.cwd || process.cwd());
     const branch = program.branch;
 
+    if (!process.env.REPO_TOKEN) {
+      console.log('missing process.env.REPO_TOKEN');
+    }
+
     const execSyncWithLog = cmd => {
       console.log(cmd);
       console.log(cwd);
@@ -35,10 +39,13 @@ program
     const gitInfo = lcl.getLastCommitSync();
     console.log(gitInfo);
     const gitBranch = gitInfo.gitBranch;
-    if (!gitBranch.startsWith('docs')) {
-      console.log(`${gitBranch} not starts with docs`);
-      process.exit(0);
-      return;
+    if (!~['master', 'develop'].indexOf(gitBranch)) {
+      console.log(`${gitBranch} is not in [master, develop]`);
+      if (!gitBranch.startsWith('docs')) {
+        console.log(`${gitBranch} is not starts with docs`);
+        process.exit(0);
+        return;
+      }
     }
     const { path: originGitPath } = urlParse(gitInfo.gitUrl);
     execSyncWithLog('git init');
