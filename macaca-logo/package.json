@@ -7,6 +7,10 @@
     "logo",
     "testing"
   ],
+  "files": [
+    "index.js",
+    "lib/*.js"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -21,6 +25,5 @@
   "pre-commit": [
     "lint"
   ],
-  "homepage": "https://github.com/macacajs/macaca-logo",
   "license": "MIT"
 }
