@@ -32,7 +32,7 @@ program
       execSync(cmd, {
         cwd,
         stdio: [0, 1, 2],
-        env: process.env,
+        env: process.env
       });
     };
 

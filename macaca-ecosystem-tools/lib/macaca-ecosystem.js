@@ -32,7 +32,7 @@ module.exports = {
           {
             text: 'CV based solution',
             link: 'https://macacajs.github.io/guide/computer-vision.html'
-          },
+          }
         ]
       },
       {
@@ -113,7 +113,7 @@ module.exports = {
           {
             text: '计算机视觉',
             link: 'https://macacajs.github.io/zh/guide/computer-vision.html'
-          },
+          }
         ]
       },
       {
